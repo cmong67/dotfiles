@@ -1,0 +1,14 @@
+# Home directory dotfiles repo.
+#
+# Everything at the top level is ignored by default so that secrets, caches,
+# and nested project repos are never accidentally staged. Track a new file by
+# adding an explicit negation below.
+/*
+
+!/.gitignore
+
+# Shell configuration
+!/.zshrc
+!/.zprofile
+!/.bashrc
+!/.bash_profile
