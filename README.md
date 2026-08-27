@@ -5,6 +5,18 @@ configs kept for compatibility). It tracks shell startup files such as
 PATH setup so a fresh shell or a new machine can be configured
 consistently, without exposing the rest of the home directory.
 
+## Quick start
+
+Clone this repo directly on top of `$HOME` to pick up the shell config:
+```
+cd ~
+git init -b main
+git remote add origin git@github.com:cmong67/dotfiles.git
+git fetch origin && git checkout -f main
+```
+Back up any existing `.zshrc`, `.zprofile`, `.bashrc`, or `.bash_profile`
+first — see "Installing on a new machine" below for the safe, detailed steps.
+
 ## Layout
 
 This repository is rooted at `$HOME`. To keep the rest of the home
