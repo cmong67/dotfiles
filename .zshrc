@@ -121,3 +121,6 @@ compinit
 # End of Docker CLI completions
 
 # ~/.local/bin (cua-driver-rs, Antigravity CLI) is exported from ~/.zprofile
+
+# Added by Antigravity IDE
+export PATH="/Users/cmong/.antigravity-ide/antigravity-ide/bin:$PATH"
