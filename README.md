@@ -1,6 +1,9 @@
 # dotfiles
 
-Shell configuration for this machine, tracked from `$HOME`.
+Personal dotfiles repository for this macOS machine (zsh, with bash
+configs kept for compatibility). It tracks shell startup files such as
+PATH setup so a fresh shell or a new machine can be configured
+consistently, without exposing the rest of the home directory.
 
 ## Layout
 
